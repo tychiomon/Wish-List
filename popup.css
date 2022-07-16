@@ -1,0 +1,14 @@
+@import '@material/slider/dist/mdc.slider.css';
+
+html, body {
+  height: 300px;
+  width: 570px;
+}
+
+body {
+  margin: 20px;
+}
+
+img {
+	vertical-align: middle;
+}
