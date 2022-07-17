@@ -1,7 +1,7 @@
 // <reference path="../node_modules/chrome-extension-async/chrome-extension-async.d.ts" />
 import 'chrome-extension-async'
 
-import Message from './interfaces/Message'
+import Message from './Message'
 
 // Handle messages from popup
 chrome.runtime.onMessage.addListener(async (message: Message, sender, respond) => {
