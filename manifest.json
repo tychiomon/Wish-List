@@ -4,15 +4,14 @@
     "version": "0.1",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.ts"
     },
-    "permissions": ["storage"],
+    "permissions": ["storage","tabCapture", "activeTab", "tabs", "<all_urls>"],
     "action": {
         "default_popup": "popup.html"
-    },
-    
-    
-    
-    "permissions": ["tabCapture", "activeTab", "tabs", "storage", "<all_urls>"]
+        //"default_icon:{}
+    }
+    //"icons":{}
+
     //"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }

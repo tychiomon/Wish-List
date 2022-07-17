@@ -5,9 +5,23 @@ html, body {
 
 body {
   margin: 20px;
-  background-color: aliceblue;
+  background-color: rgb(107, 174, 233);
 }
 
 img {
 	vertical-align: middle;
+}
+
+input {
+  display: inline; 
+  border-style: none; 
+  border-bottom-style: solid;
+}
+
+button {
+  height: 30px;
+  width: auto;
+  outline: none;
+  border: none;
+  border-radius: 2px;
 }
